@@ -21,17 +21,27 @@ body{
     margin-top: 111px;
     margin-left: 106px;
     margin-right: 24px;
+    margin-bottom: 111px;
+    
 }
 .players h1{
     font-size: 70px;
     font-weight: 700;
     line-height: 80px;
   
+    margin: 0;
+    padding: 0%;
+  
 }
 .players p{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    padding: 0;
+    width:506px ;
+    
+   
+    
 }
 
 .player{
@@ -43,4 +53,13 @@ body{
     height: 613px;
     width: 581px;
    
+}
+.b1{
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.46px;
+    color: white;
 }
