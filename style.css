@@ -12,8 +12,9 @@ body{
     color: white;
     height: 646px;
     width: 1321px;
+    margin: auto;
     margin-top: 50px;
-    margin-left: 105px;
+    
     border-radius: 25px;
 }
 .players{
@@ -45,6 +46,7 @@ body{
     
 }
 
+
 .player{
     margin-top: 33px;
     margin-right: 79px;
@@ -55,15 +57,116 @@ body{
     width: 581px;
    
 }
+
 .b1{
-    background-color: #DD0000;
+    background-color: white;
     border-radius: 5px;
     padding: 16px 25px;
     font-size: 20px;
     font-weight: 400;
     line-height: 23.46px;
+    color:black;
+    text-decoration: none;
+
+}
+.b1:hover{
+    background-color:#DD0000;
     color: white;
 }
 /*------------------
 top part ends
 ----------------*/
+/*---------------------------
+ main part starts
+-------------------- */
+.bloggings{
+    display: flex;
+    margin: 0 auto;
+    width: 1320px;
+    height: 1000px;
+
+}
+.menu{
+     background-color: black;
+     border-radius: 10px;
+     color: white;
+     height:312px ;
+     width: 312px;
+     margin: 24px 12px 12px 12px;
+    
+     
+     
+
+    
+
+}
+.menu h3{
+    background-color:white ;
+    border-radius: 10px;
+    color: black;
+    height: 64px;
+    width: 252px;
+    text-align: center;
+   
+    margin: 30px;
+
+}
+.menu h3:hover{
+    background-color: #DD0000;
+}
+.menu h3 a{
+    text-decoration: none;
+    color: black;
+   
+}
+.menu h3 a:hover{
+    background-color: #DD0000;
+    color: white;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin: 24px;
+    margin-left: 12px;
+}
+/*--------------
+main parts ends
+----------------*/
+/*-----------------
+  footer starts
+  ---------------*/
+.footer{
+    background-color: black;
+    color: white;
+    height: 244px;
+    width: auto;
+    margin:0;
+    padding-top: 50px;
+   
+    text-align: center;
+}
+.footer div h2{
+   margin-bottom: 50px;
+    
+}
+hr{
+    width: 1320px;
+}
+
+.contact{
+   
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 898px;
+    
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+/*----------
+footer ends
+--------*/
